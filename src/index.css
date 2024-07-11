@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.work-sans-600 {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#root {
+  font-family: "Work Sans", sans-serif;
+}
+
+
+
+
+
+nav a {
+  color: #0d0d0d;
+  /* font-weight: bold; */
+}
+
+nav a:hover {
+  color: #7A00E6;
+  text-decoration: underline;
+}
+
+#volet .nav {
+  height: calc(100% - 137px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#home img {
+  object-position: center center;
+
+}
+
+@media (max-width:1023px) {
+  .home_head {
+    /* background: #000; */
+    transform: translate(0px, -150px);
+  }
+}
+
+@media (max-width:800px) {
+  .home_head {
+    /* background: #000; */
+    transform: translate(0px, -90px);
+  }
+}
+
+main img {
+  object-position: center center;
+  object-fit: cover;
+}
+
+main .Mybutton {
+  transform: translate(-50%, -50%);
+}
+
+footer ol li {
+  padding-top: 9px;
+}
